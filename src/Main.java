@@ -35,5 +35,11 @@ public class Main {
         for (;i <= 98; i += 7){
             System.out.println("i = " + i);
         }
+        System.out.println(" ");
+        System.out.println("Задание 7:");
+        i = 1;
+        for (; i <= 512; i *= 2){
+            System.out.println("i = " + i);
+        }
     }
 }
