@@ -61,5 +61,13 @@ public class Main {
             totalMoney = totalMoney +rate + moneyPerMount;
             System.out.println("Месяц " + month + ", сумма накоплений равна " + totalMoney + " рублей");
         }
+        System.out.println(" ");
+        System.out.println("Задание 10:");
+        i = 1;
+        int result = 0;
+        for (; i <= 10; i++){
+            result = 2 * i;
+            System.out.println("2*"+ i + "="+ result);
+        }
     }
 }
