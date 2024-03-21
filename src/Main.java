@@ -18,5 +18,10 @@ public class Main {
             System.out.println("i = " + i);
         }
         System.out.println(" ");
+        System.out.println("Задание 4:");
+        i = 10;
+        for (; i >= -10; i--){
+            System.out.println("i = " + i);
+        }
     }
 }
