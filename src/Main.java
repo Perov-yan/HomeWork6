@@ -23,5 +23,11 @@ public class Main {
         for (; i >= -10; i--){
             System.out.println("i = " + i);
         }
+        System.out.println(" ");
+        System.out.println("Задание 5:");
+        int year = 1904;
+        for (;year <= 2096; year += 4){
+            System.out.println( year + " год является високосным.");
+        }
     }
 }
