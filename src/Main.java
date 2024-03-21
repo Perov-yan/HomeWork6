@@ -41,5 +41,14 @@ public class Main {
         for (; i <= 512; i *= 2){
             System.out.println("i = " + i);
         }
+        System.out.println(" ");
+        System.out.println("Задание 8:");
+        int totalMoney = 0;
+        short moneyPerMount = 29000;
+        i = 1;
+        for (; i <= 12; i++){
+            totalMoney = totalMoney + moneyPerMount;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + totalMoney + " рублей");
+        }
     }
 }
